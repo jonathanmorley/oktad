@@ -4,29 +4,4 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: "10:00"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: path_abs
-    versions:
-    - 0.5.0
-    - 0.5.1
-  - dependency-name: reqwest
-    versions:
-    - 0.11.0
-    - 0.11.1
-  - dependency-name: structopt
-    versions:
-    - 0.3.21
-  - dependency-name: structopt-derive
-    versions:
-    - 0.4.14
-  - dependency-name: pretty_env_logger
-    versions:
-    - 0.4.0
-  - dependency-name: glob
-    versions:
-    - 0.3.0
-  - dependency-name: base64
-    versions:
-    - 0.12.0
